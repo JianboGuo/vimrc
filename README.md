@@ -16,7 +16,7 @@
 
 ### 1. 安装 `Vundle.vim`
 ```bash
-git clone https://github.com/llh911001/vimrc ~/.vim
+git clone https://github.com/JianboGuo/vimrc ~/.vim
 cd ~/.vim
 cp .vimrc ~/
 git submodule update --init
