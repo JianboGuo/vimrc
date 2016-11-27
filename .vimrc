@@ -128,12 +128,12 @@ set whichwrap+=<,>,[,],h,l  " backspace and cursor keys wrap to
 "set shortmess=atI " shortens messages to avoid 'press a key' prompt
 set report=0 " tell us when anything is changed via :...
 set noerrorbells " don't make noise
-set relativenumber
+"set relativenumber
 
 " highlight the cursor current line in current window
 autocmd VimEnter,WinEnter,BufWinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine ctermbg=black cterm=bold
+highlight CursorLine ctermbg=yellow cterm=bold
 highlight LineNr ctermbg=darkgrey ctermfg=grey " line number bg and fg schema
 "
 set list listchars=tab:\ \ ,trail:·,eol:¬ " mark trailing white space
@@ -157,9 +157,9 @@ set laststatus=2 " always show the status line
 set nosmartindent " smartindent (filetype indenting instead)
 set autoindent " autoindent (should be overwrote by cindent or filetype indent)
 set cindent " do c-style indenting
-set softtabstop=2 " unify
-set shiftwidth=2 " unify
-set tabstop=2 " real tabs should be 4, but they will show with set list on
+set softtabstop=4 " unify
+set shiftwidth=4 " unify
+set tabstop=4 " real tabs should be 4, but they will show with set list on
 set expandtab " use spaces instead of tab
 set smarttab " be smart when using tabs
 set copyindent " but above all -- follow the conventions laid before us
